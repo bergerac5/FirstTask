@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: auto;
+    height: auto;    
+}
+.container{    
+    width: 100%;
+    margin-top: 15%;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;       
+}
+
+img{
+     width: 100%; 
+     height: 100%;
+}
+
+img:hover{
+    border: solid rgb(0, 238, 255);
+}
+
+@media (max-width: 600px){
+    body{
+        width: auto;
+        height: auto;    
+    }
+    .container{    
+        width: 100%;
+        margin-top: 15%;
+    }
+    
+    .imgs{
+        display: flex;
+        flex-direction: row;       
+    }
+    
+    img{
+         width: 100%; 
+         height: 100%;
+    }
+    
+    img:hover{
+        border: solid rgb(0, 238, 255);
+    }
+}
+
+
